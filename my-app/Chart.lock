@@ -1,0 +1,6 @@
+dependencies:
+- name: nautilus
+  repository: http://localhost:8181
+  version: 0.1.0
+digest: sha256:6e47876dadd12a46f2e59be73802fb34042f5d64d458adb11d82973b43ab6abc
+generated: "2026-04-05T14:50:56.388293-05:00"
