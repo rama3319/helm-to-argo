@@ -1,0 +1,10 @@
+apiVersion: v2
+name: nautilus-app
+description: Sample app deployed using the Nautilus generic chart
+type: application
+version: 0.1.0
+dependencies:
+  - name: nautilus
+    version: "0.4.0"
+    repository: "https://rama3319.github.io/Nautilus"
+    alias: app
