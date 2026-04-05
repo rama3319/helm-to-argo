@@ -6,9 +6,15 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: NodePort
+  type: ClusterIP
   port: 80
-  nodePort: 30080
+
+ingress:
+  enabled: true
+  className: traefik
+  host: nginx.local
+  path: /
+  pathType: Prefix
 
 resources:
   requests:
